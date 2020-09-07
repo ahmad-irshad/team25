@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(126, 119, 119);
+    background-color: rgb(94, 89, 89);
     font-family:  'Lato', sans-serif;
     display: flex;
     align-items: center;
@@ -15,17 +15,16 @@ body {
 }
 
 .container {
-    background-color: mintcream;
+    background-color: rgb(170, 179, 174);
     border-radius: 7px;
     width: 500px;
     height: auto;
-    box-shadow: 2px 2px 15px 3px  rgb(218, 212, 213);
+    box-shadow: 0 2px 15px rgb(172, 169, 169);
 }
 
 h2 {
     text-align: center;
     margin-bottom: 20px;
-    
 }
 
 .form {
@@ -77,14 +76,25 @@ h2 {
     border-color:crimson;
 }
 
-.form-control.btn button {
+.submit {
     width: 100%;
-    padding: 10px 100px;
+    padding: 10px;
     color: rgb(253, 253, 253);
-    /* font-weight: bold; */
+    background-color: rgb(134, 142, 150);
+    border: 0;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.home{
+    width: 100%;
+    padding: 10px;
+    color: rgb(253, 253, 253);
     background-color: slategrey;
     border: 0;
+    border-radius: 0 0 7px 7px;
     font-size:16px;
+
 }
 
 
