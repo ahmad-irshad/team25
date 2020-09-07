@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: rgb(126, 119, 119);
     font-family:  'Lato', sans-serif;
     display: flex;
     align-items: center;
@@ -59,6 +59,14 @@ h2 {
 .form-control input:focus{
     outline:0;
     border-color: black;
+}
+
+.form-control small{
+    visibility: hidden;
+}
+
+.form-control.error small{
+    visibility: visible;
 }
 
 .form-control.success input{
