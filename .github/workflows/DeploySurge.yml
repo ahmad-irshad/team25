@@ -35,6 +35,6 @@ jobs:
         
       # Deploying Surge
       - name: Deploying Surge
-        run: surge ./
+        run: surge ./ team25.surge.sh --token ${{ secrets.SURGE_TOKEN}}
         
           

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family:  'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: mintcream;
+    border-radius: 7px;
+    width: 500px;
+    height: auto;
+    box-shadow: 2px 2px 15px 3px  rgb(218, 212, 213);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.form {
+    padding: 2em ;
+}
+
+.form-control {
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.form-control label {
+    font-weight: bold;
+    color: black;
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+.form-control input {
+    border: 2px solid silver;
+    border-radius: 3px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    color: rgb(47, 44, 44);
+}
+
+.form-control input:focus{
+    outline:0;
+    border-color: black;
+}
+
+.form-control.success input{
+    border-color:green;
+}
+
+.form-control.error input{
+    border-color:crimson;
+}
+
+.form-control.btn button {
+    width: 100%;
+    padding: 10px 100px;
+    color: rgb(253, 253, 253);
+    /* font-weight: bold; */
+    background-color: slategrey;
+    border: 0;
+    font-size:16px;
+}
+
+
+
+
