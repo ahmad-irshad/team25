@@ -15,6 +15,20 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
+.box{
+    background-color:blue;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vh;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
 .movie-container{
     margin: 20px 0;
 }
